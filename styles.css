@@ -1,35 +1,156 @@
-/* Outdated CSS */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/*header */
+.header {
+    text-align: center;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    padding: 20px;
+    border-bottom: solid #ece5e5;
+}
+.header h1 {
+    margin: 18px 0 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;   
+}
+
+.header p {
+    margin: 8px 0 10px;
+    font-style: italic;
+}
+
+/*navigation bar */
+.navbar {
+    background-color: #4b4d49;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    width: 100%;
+    border-bottom: solid #ece5e5;
+
+} 
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.navbar a {
+    display: block;
+    padding: 15px 28px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.navbar a:hover {
+    background-color: black;
+    color: azure;
+}
+
 h1 {
     margin: 0;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+.content {
+    text-align: center;
+    padding-bottom: 15px;
+
 }
 
-li {
-    margin: 0;
-    padding: 0;
+.content h2 {
+    font-size: 30px;
+    color: black;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+
+/* about page */
+#about {
+    background-image: url('images/sink1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    padding: 80px; 
+    text-align: center; 
 }
 
-img {
-    width: 100%;
-    height: auto;
+#about h2 {
+    font-size: 48px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+#about p {
+    background-color: rgba(50, 54, 52, 0.799); 
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto; 
 }
+
+/*types page */
+.types {
+    display: flex;
+    border-radius: 10px;
+}
+
+#types img {
+    float: left;
+    width: 25%;
+    height: auto; 
+    margin: 10px 15px 10px 0; 
+}
+
+.text-content {
+    margin-top: 20px; 
+}
+
+#types h2 {
+    font-size: 48px;
+    text-align: left;
+    margin-top: 40px; 
+    margin-bottom: 10px;
+}
+
+#types p {
+    text-align: left;
+    font-size: 16px; 
+    margin-top: 30px; 
+}
+
+
+
+
+/*features and benefits page*/
+#features_benefits {
+
+}
+
+#features_benefits .content {
+
+}
+
+/*contact page */
+#contact {
+
+}
+
+.footer {
+    background-color: #6e706b;
+    padding: 3px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
