@@ -5,38 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinks R Us - Old School Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-        <!--Home page-->
-        <div class="header">
-            <h1>Sinks R Us</h1>
-            <p>" Your one-stop shop for all types of sinks. "</p>
+<!--Home page-->
+<div class="header-nav-container">
+    <div class="header">
+        <h1>&#167;inks R Us</h1>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">&#9776</button>
+        <div class="dropdown-content">
+            <a href="#home" style="color: white; text-decoration: none;">Home</a>
+            <a href="#about" style="color: white; text-decoration: none;">About Us</a>
+            <a href="#types" style="color: white; text-decoration: none;">Types of Sinks</a>
+            <a href="#features_benefits" style="color: white; text-decoration: none;">Features</a>
+            <a href="#contact" style="color: white; text-decoration: none;">Contact Us</a>
         </div>
+    </div>
+</div>
+
+<!--Welcome page-->
+<div id="home">
+    <div class="welcome-image">
+        <img src="images/welcome2.png" alt="welcome image" class="welcome-image">
+    </div>
+    <div id="home-text">
+        <h1>&#167;inks R Us</h1>
+        <p>Your one stop shop for all types of sinks.</p>
+        <a href="#about" class="see-more">
+            <i class="fas fa-chevron-down"></i>
+        </a>        
+    </div>
+</div>
 
 
-        <!--Navigation bar -->
-        <nav class="navbar">
-            <ul>
-                <li><a href="#" style="color: white; text-decoration: none;">Home</a></li>
-                <li><a href="#" style="color: white; text-decoration: none;">About Us</a></li>
-                <li><a href="#" style="color: white; text-decoration: none;">Types of Sinks</a></li>
-                <li><a href="#" style="color: white; text-decoration: none;">Features</a></li>
-                <li><a href="#" style="color: white; text-decoration: none;">Contact Us</a></li>
-            </ul>
-        </nav>
-
-            
         <div class="OtherPages">
             <!--About us page-->
-            <div id="about" class="content">
-                <h2>About Our Sinks</h2>
-                <p>At Sinks R Us, we offer a wide variety of sinks to suit every need. From classic designs to modern styles, our sinks are made from high-quality materials and built to last.</p>
+            <div id="about" class="content-container">
+                <div class="content">
+                    <h2>About Our Sinks</h2>
+                    <p>At Sinks R Us, we offer a wide variety of sinks to suit every need. From classic designs to modern styles, our sinks are made from high-quality materials and built to last.</p>
+                </div>
             </div>
 
             <!--Types of sinks page-->
-            <div id="types" class="content">
-                <img src="images/sink2.jpg" alt="Sink Image" width="100%" height="auto">
+            <div id="types">
+                <div class="images-content">
+                    <img src="images/sink2.jpg" alt="Sink Image">
+                    <img src="images/sink2a.jpg" alt="Sink Image">
+                    <img src="images/sink2b.jpg" alt="Sink Image">
+                </div>
                 <div class="text-content">
                     <h2>Types of Sinks</h2>
                     <p>Explore our extensive range of sinks, including undermount, farmhouse, and vessel sinks. Each type comes with its own unique features and benefits to match your kitchen or bathroom design.</p>
@@ -44,17 +64,40 @@
             </div>
 
             <!--Features and benefits page-->
-            <div id="features_benefits" class="content">
-                <img src="images/sink3.jpeg" alt="Sink Features" width="100%" height="auto">
-                <h2>Features and Benefits</h2>
-                <p>Our sinks come with a range of features, including easy-to-clean surfaces, scratch resistance, and various styles to complement your decor. Learn more about what makes our sinks stand out.</p>
+            <div id="features_benefits">
+                <img class="image"src="images/sink3.jpeg" alt="Sink Features" >
+                <div class="text-content">
+                    <h2>Features and Benefits</h2>
+                    <p>Our sinks come with a range of features, including <span class="highlight">easy-to-clean surfaces,</span> <span class="highlight">scratch resistance,</span> and <span class="highlight">various styles to</span> <span class="highlight">complement your decor.</span> Learn more about what makes our sinks stand out. </p>
+        
+                </div>
             </div>
 
             <!--Contact us page-->
             <div id="contact" class="content">
                 <h2>Contact Us</h2>
+                <p>Feel free to contact us any time. We will get back to you as soon as we can.</p>
+                <div class="contact-details">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      
+                      <a href="mailto:someone@example.com">
+                        <i class="fas fa-envelope"></i>
+                      </a>
+                      
+                      <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      
+                      <a href="tel:+1234567890">
+                        <i class="fas fa-phone"></i>
+                      </a>
+                      
+                </div>
             </div>
         </div>
+
 
         <div class="footer">
             <p>&copy; 2024 Sinks R Us</p>
